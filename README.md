@@ -1,4 +1,4 @@
-# cmpiprof
+# MPI-Profiler
 MPI aware cuda profiler
 
 The idea behind this profiler is to give an MPI context for CUDA exections. Specifically this is suppose to answer the question for each MPI phase (time between synchonous MPI calls) what is the GPU utilization within that phase.
